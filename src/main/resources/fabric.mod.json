@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wisp",
+  "version": "${version}",
+  "name": "Wisp",
+  "description": "A customizable companion creature system. Create unlimited custom Wisps from an in-game GUI.",
+  "authors": [
+    "You"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/wisp/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.wispmod.WispMod"
+    ],
+    "client": [
+      "com.wispmod.WispModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
